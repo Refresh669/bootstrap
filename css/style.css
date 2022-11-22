@@ -163,8 +163,6 @@ header {
   background: rgba(204, 204, 204, 0.3);
   border-radius: 0;
   padding: 76px 51px;
-  padding-left: 0;
-  padding-right: 0;
 }
 .Society h3 {
   font-family: "Roboto", sans-serif;
@@ -184,6 +182,75 @@ header {
   margin: 31px 0 40px;
 }
 .Society a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.Heritage {
+  background: rgba(204, 204, 204, 0.6);
+  border-radius: 0;
+  padding: 76px 51px;
+}
+.Heritage h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  text-align: right;
+}
+.Heritage p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: right;
+  color: #000000;
+  margin: 31px 0 40px;
+}
+.Heritage a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #000000;
+  display: block;
+}
+
+.Politics {
+  background: rgba(204, 204, 204, 0.3);
+  border-radius: 0;
+  padding: 76px 51px;
+}
+.Politics h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  text-align: left;
+}
+.Politics p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin: 31px 0 40px;
+}
+.Politics a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
