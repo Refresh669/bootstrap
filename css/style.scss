@@ -192,7 +192,7 @@ header{
 .Heritage{
   background: rgba(204, 204, 204, 0.6);
   border-radius: 0;
-  padding: 76px 51px;
+  padding: 76px 0 51px;
   h3{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -259,3 +259,54 @@ header{
     color: #000000;
   }
 }
+
+.img-center{
+  text-align: center;
+}
+
+.Thalby{
+  .container{
+    h2{
+      padding: 190px 0 69px;
+    }
+    article{
+        margin-bottom: 111px;
+      img{
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+.Each{
+  h2{
+    padding-bottom: 290px;
+  }
+}
+.Discover{
+  height: 480px;
+  background: #F0F0F0;
+  .container{
+    article{
+      max-width: 288px;
+      position: relative;
+      top: -188px;
+      h4{
+        margin-top: 35px;
+      }
+      p{
+        margin: 34px 0 44px;
+        }
+      a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #000000;
+      }
+      }
+    }
+  }

@@ -194,7 +194,7 @@ header {
 .Heritage {
   background: rgba(204, 204, 204, 0.6);
   border-radius: 0;
-  padding: 76px 51px;
+  padding: 76px 0 51px;
 }
 .Heritage h3 {
   font-family: "Roboto", sans-serif;
@@ -256,6 +256,50 @@ header {
   font-weight: 700;
   font-size: 17px;
   line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.img-center {
+  text-align: center;
+}
+
+.Thalby .container h2 {
+  padding: 190px 0 69px;
+}
+.Thalby .container article {
+  margin-bottom: 111px;
+}
+.Thalby .container article img {
+  margin-bottom: 25px;
+}
+
+.Each h2 {
+  padding-bottom: 290px;
+}
+
+.Discover {
+  height: 480px;
+  background: #F0F0F0;
+}
+.Discover .container article {
+  max-width: 288px;
+  position: relative;
+  top: -188px;
+}
+.Discover .container article h4 {
+  margin-top: 35px;
+}
+.Discover .container article p {
+  margin: 34px 0 44px;
+}
+.Discover .container article a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
   text-decoration-line: underline;
   color: #000000;
 }
