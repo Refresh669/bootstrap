@@ -330,5 +330,14 @@ footer .container .row ul li a {
   line-height: 21px;
   color: #FFFFFF;
 }
+footer .container .text-center {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
 
 /*# sourceMappingURL=style.css.map */
