@@ -310,3 +310,33 @@ header{
       }
     }
   }
+footer{
+  background: #020202;
+  .container{
+    padding: 51px 0 44px;
+    .row{
+      .logosvg{
+        padding-top: 45px;
+        img{
+          margin-right: 22px;
+        }
+      }
+      ul{
+        li{
+          list-style: none;
+          &:first-of-type{
+            padding-bottom: 36px;
+          }
+          a{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
+}

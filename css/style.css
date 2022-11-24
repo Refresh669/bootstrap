@@ -304,4 +304,31 @@ header {
   color: #000000;
 }
 
+footer {
+  background: #020202;
+}
+footer .container {
+  padding: 51px 0 44px;
+}
+footer .container .row .logosvg {
+  padding-top: 45px;
+}
+footer .container .row .logosvg img {
+  margin-right: 22px;
+}
+footer .container .row ul li {
+  list-style: none;
+}
+footer .container .row ul li:first-of-type {
+  padding-bottom: 36px;
+}
+footer .container .row ul li a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=style.css.map */
