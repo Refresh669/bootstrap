@@ -313,7 +313,7 @@ header{
 footer{
   background: #020202;
   .container{
-    padding: 51px 0 44px;
+    padding: 51px 0 16px;
     .row{
       .logosvg{
         padding-top: 45px;
@@ -322,6 +322,7 @@ footer{
         }
       }
       ul{
+        margin-left: 39px;
         li{
           list-style: none;
           &:first-of-type{
@@ -346,6 +347,7 @@ footer{
       line-height: 23px;
       text-align: center;
       color: #FFFFFF;
+      margin: 0;
     }
   }
 }

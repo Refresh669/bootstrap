@@ -308,13 +308,16 @@ footer {
   background: #020202;
 }
 footer .container {
-  padding: 51px 0 44px;
+  padding: 51px 0 16px;
 }
 footer .container .row .logosvg {
   padding-top: 45px;
 }
 footer .container .row .logosvg img {
   margin-right: 22px;
+}
+footer .container .row ul {
+  margin-left: 39px;
 }
 footer .container .row ul li {
   list-style: none;
@@ -338,6 +341,7 @@ footer .container .text-center {
   line-height: 23px;
   text-align: center;
   color: #FFFFFF;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
