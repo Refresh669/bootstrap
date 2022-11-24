@@ -310,6 +310,43 @@ header{
       }
     }
   }
+.form{
+  padding: 79px 0 88px;
+  h5{
+    margin-bottom: 26px;
+  }
+  form{
+    .form-name{
+      p{
+        input{
+          max-width: 153px;
+          margin: 0 30px;
+        }
+      }
+    }
+    .form-mail{
+        input{
+          width: 366px;
+      }
+    }
+    .Subscribe{
+      input{
+        padding: 7px 23px 10px;
+        background: #000000;
+        border: 1px solid #000000;
+        border-radius: 100px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+
+      }
+    }
+  }
+}
 footer{
   background: #020202;
   .container{
