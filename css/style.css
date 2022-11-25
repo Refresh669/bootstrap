@@ -75,7 +75,7 @@ header {
   position: relative;
   top: -90px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .main-banner img {
     width: 100%;
   }
@@ -112,6 +112,7 @@ header {
 @media screen and (max-width: 767px) {
   .sellers {
     justify-content: center;
+    padding-bottom: 100px;
   }
 }
 .sellers h2 {
@@ -158,11 +159,27 @@ header {
   border: none;
   padding: 0;
 }
+@media screen and (max-width: 834px) {
+  .sellers .card a {
+    margin-bottom: 30px;
+  }
+}
 
 .Society {
   background: rgba(204, 204, 204, 0.3);
   border-radius: 0;
-  padding: 76px 51px;
+  padding: 76px 0 51px;
+}
+@media screen and (max-width: 767px) {
+  .Society {
+    padding: 76px 30px 51px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .Society img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 .Society h3 {
   font-family: "Roboto", sans-serif;
@@ -171,6 +188,13 @@ header {
   font-size: 36px;
   line-height: 42px;
   color: #000000;
+}
+@media screen and (max-width: 834px) {
+  .Society h3 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+  }
 }
 .Society p {
   font-family: "Roboto", sans-serif;
@@ -181,6 +205,13 @@ header {
   color: #000000;
   margin: 31px 0 40px;
 }
+@media screen and (max-width: 834px) {
+  .Society p {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
 .Society a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -190,11 +221,28 @@ header {
   text-decoration-line: underline;
   color: #000000;
 }
+@media screen and (max-width: 834px) {
+  .Society a {
+    text-align: center;
+    display: block;
+  }
+}
 
 .Heritage {
   background: rgba(204, 204, 204, 0.6);
   border-radius: 0;
   padding: 76px 0 51px;
+}
+@media screen and (max-width: 767px) {
+  .Heritage {
+    padding: 76px 30px 51px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .Heritage img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 .Heritage h3 {
   font-family: "Roboto", sans-serif;
@@ -205,6 +253,13 @@ header {
   color: #000000;
   text-align: right;
 }
+@media screen and (max-width: 834px) {
+  .Heritage h3 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
 .Heritage p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -214,6 +269,13 @@ header {
   text-align: right;
   color: #000000;
   margin: 31px 0 40px;
+}
+@media screen and (max-width: 834px) {
+  .Heritage p {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+  }
 }
 .Heritage a {
   font-family: "Roboto", sans-serif;
@@ -226,11 +288,28 @@ header {
   color: #000000;
   display: block;
 }
+@media screen and (max-width: 834px) {
+  .Heritage a {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
 
 .Politics {
   background: rgba(204, 204, 204, 0.3);
   border-radius: 0;
-  padding: 76px 51px;
+  padding: 76px 0 51px;
+}
+@media screen and (max-width: 767px) {
+  .Politics {
+    padding: 76px 30px 51px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .Politics img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 .Politics h3 {
   font-family: "Roboto", sans-serif;
@@ -241,6 +320,13 @@ header {
   color: #000000;
   text-align: left;
 }
+@media screen and (max-width: 834px) {
+  .Politics h3 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
 .Politics p {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -250,6 +336,13 @@ header {
   color: #000000;
   margin: 31px 0 40px;
 }
+@media screen and (max-width: 834px) {
+  .Politics p {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
 .Politics a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -258,6 +351,12 @@ header {
   line-height: 20px;
   text-decoration-line: underline;
   color: #000000;
+}
+@media screen and (max-width: 834px) {
+  .Politics a {
+    text-align: center;
+    display: block;
+  }
 }
 
 .img-center {
@@ -276,22 +375,95 @@ header {
 
 .Each h2 {
   padding-bottom: 290px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+@media screen and (max-width: 767px) {
+  .Each h2 {
+    padding-bottom: 90px;
+    font-size: 20px;
+    line-height: 22px;
+  }
 }
 
 .Discover {
   height: 480px;
   background: #F0F0F0;
 }
+@media screen and (max-width: 767px) {
+  .Discover {
+    height: auto;
+  }
+}
 .Discover .container article {
   max-width: 288px;
   position: relative;
   top: -188px;
 }
+@media screen and (max-width: 834px) {
+  .Discover .container article {
+    max-width: 230px;
+    top: -140px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Discover .container article {
+    max-width: 90px;
+    top: -50px;
+  }
+}
+@media screen and (max-width: 834px) {
+  .Discover .container article img {
+    max-width: 230px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Discover .container article img {
+    max-width: 90px;
+  }
+}
 .Discover .container article h4 {
   margin-top: 35px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+@media screen and (max-width: 767px) {
+  .Discover .container article h4 {
+    font-size: 11px;
+    line-height: 14px;
+  }
 }
 .Discover .container article p {
   margin: 34px 0 44px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+}
+@media screen and (max-width: 834px) {
+  .Discover .container article p {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Discover .container article p {
+    font-size: 11px;
+    line-height: 12px;
+  }
 }
 .Discover .container article a {
   font-family: "Roboto";
@@ -302,6 +474,12 @@ header {
   text-align: center;
   text-decoration-line: underline;
   color: #000000;
+}
+@media screen and (max-width: 767px) {
+  .Discover .container article a {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
 .form {
@@ -314,8 +492,19 @@ header {
   max-width: 153px;
   margin: 0 30px;
 }
+@media screen and (max-width: 767px) {
+  .form form .form-name p input {
+    max-width: 100px;
+    margin: 0 15px;
+  }
+}
 .form form .form-mail input {
   width: 366px;
+}
+@media screen and (max-width: 767px) {
+  .form form .form-mail input {
+    max-width: 230px;
+  }
 }
 .form form .Subscribe input {
   padding: 7px 23px 10px;
@@ -337,14 +526,46 @@ footer {
 footer .container {
   padding: 51px 0 16px;
 }
+@media screen and (max-width: 834px) {
+  footer .container {
+    padding: 25px 25px 10px 25px;
+    display: inline-flex;
+  }
+}
+@media screen and (max-width: 767px) {
+  footer .container {
+    display: block;
+  }
+}
 footer .container .row .logosvg {
   padding-top: 45px;
+}
+@media screen and (max-width: 768px) {
+  footer .container .row .logosvg {
+    display: flex;
+  }
 }
 footer .container .row .logosvg img {
   margin-right: 22px;
 }
+@media screen and (max-width: 834px) {
+  footer .container .row .logosvg img {
+    margin-bottom: 20px;
+    display: flex;
+  }
+}
 footer .container .row ul {
   margin-left: 39px;
+}
+@media screen and (max-width: 834px) {
+  footer .container .row ul {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer .container .row ul {
+    margin-left: 0;
+  }
 }
 footer .container .row ul li {
   list-style: none;
