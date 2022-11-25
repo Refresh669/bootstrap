@@ -75,7 +75,7 @@ header {
   position: relative;
   top: -90px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 834px) {
   .main-banner img {
     width: 100%;
   }
@@ -375,7 +375,7 @@ header {
 
 .Each h2 {
   padding-bottom: 290px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -429,7 +429,7 @@ header {
 }
 .Discover .container article h4 {
   margin-top: 35px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -446,7 +446,7 @@ header {
 }
 .Discover .container article p {
   margin: 34px 0 44px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -466,7 +466,7 @@ header {
   }
 }
 .Discover .container article a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -511,7 +511,7 @@ header {
   background: #000000;
   border: 1px solid #000000;
   border-radius: 100px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -574,7 +574,7 @@ footer .container .row ul li:first-of-type {
   padding-bottom: 36px;
 }
 footer .container .row ul li a {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -582,7 +582,7 @@ footer .container .row ul li a {
   color: #FFFFFF;
 }
 footer .container .text-center {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
