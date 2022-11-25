@@ -117,7 +117,7 @@ header {
 }
 .sellers h2 {
   margin-bottom: 52px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
